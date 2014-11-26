@@ -2,6 +2,7 @@
     "name": "slynova/acts-as-commentable",
     "description": "Allows for threaded comments to be added to multiple and different models.",
     "license": "MIT",
+    "keywords": ["laravel", "laravel4", "comment"],
     "authors": [
         {
             "name": "Romain Lanz",
