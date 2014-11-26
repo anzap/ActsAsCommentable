@@ -23,7 +23,7 @@ Once this operation completes, the final step is to add the service provider and
 
 Now you need to run migration
 
-    php artisan migrate --bench="slynova/acts-as-commentable"
+    php artisan migrate --package="slynova/acts-as-commentable"
 
 Usage
 =====
