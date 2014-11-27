@@ -17,11 +17,7 @@ Next, update Composer from the Terminal:
 
     composer update
 
-Once this operation completes, the final step is to add the service provider and to run a migration. Open app/config/app.php, and add a new item to the providers array.
-
-    'Slynova\ActsAsCommentable\ActsAsCommentableServiceProvider'
-
-The last step is to run a migration.
+Once this operation completes, the final step is to run a migration.
 
     php artisan migrate --package="slynova/acts-as-commentable"
 
