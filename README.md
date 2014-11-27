@@ -21,7 +21,7 @@ Once this operation completes, the final step is to add the service provider and
 
     'Slynova\ActsAsCommentable\ActsAsCommentableServiceProvider'
 
-After that, the last step is to run a migration.
+The last step is to run a migration.
 
     php artisan migrate --package="slynova/acts-as-commentable"
 
