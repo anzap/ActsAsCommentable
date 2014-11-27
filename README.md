@@ -1,7 +1,7 @@
 ActsAsCommentable
 =================
 
-Provides a single Comment model that can be attached to any model(s) within your app. It creates a Comment model and handles the plumbing between that model and any models that you declare to be commentable models.
+Provides a single Comment model that can be attached to any model(s) within your app for Laravel 4. It creates a Comment model and handles the plumbing between that model and any models that you declare to be commentable models.
 Inspired by [jackdempsey/acts_as_commentable](https://github.com/jackdempsey/acts_as_commentable) for Rails.
 
 Install
@@ -23,7 +23,7 @@ Once this operation completes, the final step is to add the service provider and
 
 Now you need to run migration
 
-    php artisan migrate --bench="slynova/acts-as-commentable"
+    php artisan migrate --package="slynova/acts-as-commentable"
 
 Usage
 =====
