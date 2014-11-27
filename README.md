@@ -21,7 +21,7 @@ Once this operation completes, the final step is to add the service provider and
 
     'Slynova\ActsAsCommentable\ActsAsCommentableServiceProvider'
 
-Now you need to run migration
+After that, the last step is to run a migration.
 
     php artisan migrate --package="slynova/acts-as-commentable"
 
@@ -31,8 +31,6 @@ Usage
 Set in your model that it's "commentable".
 
       <?php
-      
-      use Slynova\ActsAsCommentable\ActsAsCommentableTrait;
       
       class Post extends Eloquent
       {
@@ -45,7 +43,7 @@ After that you have access to `comments` method.
 
     $post = Post::first();
     
-    $comment = new \Slynova\ActsAsCommentable\Comment;
+    $comment = new Comment;
     $comment->body = 'My first comment!';
     
     $post->comments()->save($comment);
