@@ -1,7 +1,6 @@
-<?php namespace Slynova\ActsAsCommentable;
+<?php
 
-
-class Comment extends \Eloquent
+class Comment extends Eloquent
 {
     protected $fillable = ['title', 'body', 'subject'];
 

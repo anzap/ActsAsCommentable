@@ -14,7 +14,9 @@
     },
     "autoload": {
         "classmap": [
-            "src/migrations"
+            "src/migrations",
+            "src/Slynova/ActsAsCommentable/models",
+            "src/Slynova/ActsAsCommentable/traits"
         ],
         "psr-0": {
             "Slynova\\ActsAsCommentable\\": "src/"
